@@ -20,4 +20,4 @@ RUN pip install -r requirements.txt
 
 ENV PORT 8080
 
-CMD ["python", "Patient.py"]
+CMD ["python", "app.py"]
