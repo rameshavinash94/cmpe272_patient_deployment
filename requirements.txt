@@ -1,0 +1,5 @@
+flask
+flask_sqlalchemy
+flask_oidc
+okta==0.0.4
+flask_mail
