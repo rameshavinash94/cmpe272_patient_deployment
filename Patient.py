@@ -312,5 +312,5 @@ def view_doctor():
     return render_template('view_doctor.html', value=rows)
 
 #main function, run the app
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True,port=80)
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
