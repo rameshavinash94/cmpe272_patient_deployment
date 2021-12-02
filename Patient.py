@@ -42,7 +42,7 @@ app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 #have removed password replace email and id password with yours for testing, incase you face any issue enable smpt in gmail settings
 app.config['MAIL_USERNAME'] = 'avinashramesh2312@gmail.com'
-app.config['MAIL_PASSWORD'] = 'India@1234'
+app.config['MAIL_PASSWORD'] = ''
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 #initialize mail server
