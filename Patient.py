@@ -35,7 +35,7 @@ app.config["OIDC_SCOPES"] = ["openid", "email", "profile"]
 app.secret_key = "0averylongrandomstring"
 app.config["OIDC_ID_TOKEN_COOKIE_NAME"] = "oidc_token"
 oidc = OpenIDConnect(app)
-okta_client = UsersClient("https://dev-02149256.okta.com","009hEG5Bb1c3hHbrhppgzCCaAefPINuNzQ4ckQRXwk")
+okta_client = UsersClient("https://dev-02149256.okta.com","00UYnWQURXyQdLOiOgqlyMwFEJf07TPDwhaBIDdHKk")
 
 #gmail config
 app.config['MAIL_SERVER']='smtp.gmail.com'
